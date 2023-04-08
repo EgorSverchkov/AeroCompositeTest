@@ -3,9 +3,9 @@
 Решение реализовано на языке Java 11 версии.
 
 Основные классы:
-1. CountOfIsland
-2. SpiralArrayOut
-3. MainClass
+1. CountOfIsland.java
+2. SpiralArrayOut.java
+3. MainClass.java
 
 # Задание №1 (класс CountOfIsland):
 На вход подается двумерная сетка произвольного размера, «1» - означает «земля», «0» -
