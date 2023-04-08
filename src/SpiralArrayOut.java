@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SpiralArrayOut {
     private static final String START_MESSAGE = "Введите размер квадрата(3 <= размер <= 10):";
-    private static final String BAD_REQUEST_MESSAGE = "Проверьте корректность введенных данных";
+    private static final String BAD_REQUEST_MESSAGE = "Проверьте корректность введенных данных.";
 
     public void startMethod() {
         Scanner scanner = new Scanner(System.in);

@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class CountOfIsland {
     private static final List<Integer[]> mapList = new ArrayList<>();
-    private static final String START_MESSAGE = "Введите карту";
+    private static final String START_MESSAGE = "Введите карту и нажмите клавишу Enter два раза.";
+    private static final String COUNT_OF_ISLAND_IS = "Количество островов в карте равно: ";
 
     public void startMethod() {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class CountOfIsland {
             }
             mapList.add(parseLine(line));
         }
-        System.out.println(findCountIsland(listToArray(mapList)));
+        System.out.println(COUNT_OF_ISLAND_IS + findCountIsland(listToArray(mapList)));
     }
 
     private static Integer[] parseLine(String line) {
