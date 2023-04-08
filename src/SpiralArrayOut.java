@@ -5,7 +5,7 @@ public class SpiralArrayOut {
     private static final String START_MESSAGE = "Введите размер квадрата(3 <= размер <= 10):";
     private static final String BAD_REQUEST_MESSAGE = "Проверьте корректность введенных данных";
 
-    public static void main(String[] args) {
+    public void startMethod() {
         Scanner scanner = new Scanner(System.in);
         System.out.println(START_MESSAGE);
         int size = scanner.nextInt();

@@ -6,7 +6,7 @@ public class CountOfIsland {
     private static final List<Integer[]> mapList = new ArrayList<>();
     private static final String START_MESSAGE = "Введите карту";
 
-    public static void main(String[] args) {
+    public void startMethod() {
         Scanner scanner = new Scanner(System.in);
         System.out.println(START_MESSAGE);
         System.out.println();
